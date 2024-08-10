@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  #taskList li.completed {
+    text-decoration: line-through;
+  }
+  
